@@ -1,0 +1,20 @@
+{
+    // Python settings
+    "python.analysis.autoSearchPaths": true,
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingImports": "none"
+    },
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/Tim_Example/src",
+         "${workspaceFolder}/Tim_Example"
+    ],
+    "python.envFile": "${workspaceFolder}/streamlit_env/.env",
+    "python.terminal.activateEnvironment": true,
+    "python.defaultInterpreterPath": "${workspaceFolder}/streamlit_env/.venv/bin/python",
+    // Test settings
+    "python.testing.pytestEnabled": true,
+    "python.testing.unittestEnabled": false,
+    "python.testing.cwd": "${workspaceFolder}/Tim_Example/tests",
+    "python.testing.pytestPath": "${workspaceFolder}/streamlit_env/.venv/bin/pytest",
+    "python.testing.autoTestDiscoverOnSaveEnabled": true,
+}
